@@ -6,7 +6,12 @@
     <title>Picture Element with Webp Format</title>
 </head>
 <body>
+    <img src="img/spring300.webp" alt="Spring tree and sky">
 
+    <picture>
+        <source srcset="img/spring300.webp" type="image/webp"> <!--type="image/webp" is the condition-->
+        <img src="img/spring300.jpg" alt="spring tree and sky">
+    </picture>
 
     
 </body>
